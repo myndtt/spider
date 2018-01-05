@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+)
+
+func main() {
+	filepath.Walk("../",//本地扫描相对路径
+		func(path string, f os.FileInfo, err error) error {
+			if f == nil {
+				return err
+			}
+			if f.IsDir() {
+				fmt.Println("dir:", path)
+				return nil
+			}
+			fmt.Println("file:", path)
+			return nil
+		})
+}
