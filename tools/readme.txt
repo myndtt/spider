@@ -3,3 +3,5 @@ go-tcp-portscaner.go
 一个go语言写的最最基础的TCP端口扫描例子
 go-localfilescan
 一个go语言写的本地文件目录扫描例子
+go-webfilescanner
+一个go语言写的WEB敏感文件扫描例子
