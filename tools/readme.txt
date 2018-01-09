@@ -5,3 +5,5 @@ go-localfilescan
 一个go语言写的本地文件目录扫描例子
 go-webfilescanner
 一个go语言写的WEB敏感文件扫描例子
+python-exifread
+一个python写的简单图片exif信息读取脚本
